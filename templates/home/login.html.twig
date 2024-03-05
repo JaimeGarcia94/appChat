@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}APP CHAT{% endblock %}
+
+{% block body %}
+<style>
+  
+</style>
+
+<div class="example-wrapper">
+    <a href="{{ path('hwi_oauth_service_redirect', {'service': 'google' }) }}">
+    <span>Login with Google</span>
+</a>
+</div>
+{% endblock %}
