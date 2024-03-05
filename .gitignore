@@ -10,6 +10,7 @@
 .env
 .htaccess
 /migrations
+.gitignore
 ###< symfony/framework-bundle ###
 
 ###> phpunit/phpunit ###
